@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-enum operations { v, h, r, l};
-
 int sum_diagonal(int number_array[4][4], int size, char corner)
 {
 	int result = 0;
@@ -87,6 +85,4 @@ int main()
 	{
 		cout << "Not Magic Square";
 	}
-
-	cout << operations(v);
 }
